@@ -1,9 +1,3 @@
-/*
- * BaseMod.h
- *
- *  Created on: ??? ?, ????
- *      Author: persian co
- */
 
 #ifndef BASEMOD_H_
 #define BASEMOD_H_
