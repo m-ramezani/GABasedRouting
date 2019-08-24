@@ -2,7 +2,7 @@
  * BaseMod.cc
  *
  *  Created on: ??? ?, ????
- *      Author: persian co
+ *      Author: Mahlagha
  */
 
 
@@ -30,10 +30,7 @@ void GA::initialize(int stage)
              netl->setParentType("Source");
            else if(i == 7 || i == 15 || i == 44)// Number of Destination=3
 
-          //else if(i == 7 || i == 15 || i == 21 || i == 44)// Number of Destination=4
-          //else if(i == 7 || i == 15 || i == 21 || i == 44 || i == 37 || i == 2 || i == 29 || i == 18) Number of Destination=8
-          //else if(i == 7 || i == 15 || i == 21 || i == 44 || i == 37 || i == 2 || i == 29 || i == 18 || i == 10 || i == 23 || i == 25 || i == 33 || i == 40 || i == 48)
-              netl->setParentType("Destination");
+           netl->setParentType("Destination");
            else
                netl->setParentType("Intermediate");
            nodeList.push_back(node->getId());
